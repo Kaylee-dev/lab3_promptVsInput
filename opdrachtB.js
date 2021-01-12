@@ -12,11 +12,16 @@ function submit(){
 
 	for(var i = 0; i <= numberInput; i++){
 		numbers.push(i);// Hier push ik de var i in de array, dus wat ingevoerd word bij mijn prompt genaamd question zet die in de array.
-		document.write(numbers + "<br/>");	
 		console.log(numbers);
+	}
+
+	for(var i = 0; i <= numberInput; i++){
+		document.write(numbers + "<br/>");
+		numbers.pop();
 	}
 }
 
 
 
 
+	
